@@ -10,3 +10,8 @@ perl:
 cache:
   directories:
     - local
+
+install:
+  - make -f ci.mk travis-install
+script:
+  - make -f ci.mk travis-script
