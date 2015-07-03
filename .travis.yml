@@ -14,3 +14,5 @@ install:
   - make -f ci.mk travis-install
 script:
   - make -f ci.mk travis-script
+after_success:
+  - make -f ci.mk travis-after-success

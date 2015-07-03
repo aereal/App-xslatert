@@ -29,3 +29,5 @@ coveralls: coverage
 travis-install: install-deps
 
 travis-script: test
+
+travis-after-success: coveralls
