@@ -21,6 +21,9 @@ install-deps: install-carton
 coverage:
 	$(COVER) $(COVER_OPTIONS) -test
 
+coveralls: coverage
+	$(COVER) -report coveralls
+
 # Travis build phases
 
 travis-install: install-deps
