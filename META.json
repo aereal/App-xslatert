@@ -47,10 +47,24 @@
       },
       "test" : {
          "requires" : {
+            "Devel::Cover" : "0",
+            "Devel::Cover::Report::Coveralls" : "0",
+            "Test::Class" : "0",
             "Test::More" : "0.98"
          }
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/aereal/App-xslatert/issues"
+      },
+      "homepage" : "https://github.com/aereal/App-xslatert",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/aereal/App-xslatert.git",
+         "web" : "https://github.com/aereal/App-xslatert"
+      }
+   },
    "version" : "0.01"
 }

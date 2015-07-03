@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/aereal/App-xslatert.svg?branch=master)](https://travis-ci.org/aereal/App-xslatert) [![Coverage Status](https://img.shields.io/coveralls/aereal/App-xslatert/master.svg?style=flat)](https://coveralls.io/r/aereal/App-xslatert?branch=master)
 # NAME
 
 App::xslatert - Refactoring Utility Tool for Text::Xslate
