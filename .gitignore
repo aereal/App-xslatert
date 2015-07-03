@@ -28,3 +28,4 @@ cover_db/
 MYMETA.*
 
 /App-xslatert-*
+cpanfile.snapshot
