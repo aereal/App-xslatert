@@ -6,7 +6,7 @@ use parent qw( Test::App::xslatert::Class );
 
 use Test::More;
 
-sub _require : Tests {
+sub _require : Test(startup => 2) {
   my $pkg = __PACKAGE__ =~ s/^t:://r;
   require_ok $pkg;
   new_ok $pkg;
