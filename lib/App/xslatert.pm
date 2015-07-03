@@ -14,15 +14,19 @@ __END__
 
 =head1 NAME
 
-App::xslatert - It's new $module
+App::xslatert - Refactoring Utility Tool for Text::Xslate
 
 =head1 SYNOPSIS
 
-    use App::xslatert;
+(TBD)
 
 =head1 DESCRIPTION
 
-App::xslatert is ...
+(TBD)
+
+=head1 SEE ALSO
+
+L<Text::Xslate>
 
 =head1 LICENSE
 

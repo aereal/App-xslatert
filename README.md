@@ -1,14 +1,18 @@
 # NAME
 
-App::xslatert - It's new $module
+App::xslatert - Refactoring Utility Tool for Text::Xslate
 
 # SYNOPSIS
 
-    use App::xslatert;
+(TBD)
 
 # DESCRIPTION
 
-App::xslatert is ...
+(TBD)
+
+# SEE ALSO
+
+[Text::Xslate](https://metacpan.org/pod/Text::Xslate)
 
 # LICENSE
 
