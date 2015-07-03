@@ -1,7 +1,9 @@
-CPANM       = cpanm
-CARTON      = carton
-CARTON_EXEC = $(CARTON) exec --
-PROVE       = $(CARTON_EXEC) prove
+CPANM         = cpanm
+CARTON        = carton
+CARTON_EXEC   = $(CARTON) exec --
+PROVE         = $(CARTON_EXEC) prove
+COVER         = $(CARTON_EXEC) cover
+COVER_OPTIONS = -ignore_re 'inc|blib|modules|^t/|^local/' -make 'make -f ci.mk test'
 
 # Tasks
 
@@ -15,6 +17,9 @@ install-carton:
 
 install-deps: install-carton
 	$(CARTON) install
+
+coverage:
+	$(COVER) $(COVER_OPTIONS) -test
 
 # Travis build phases
 
