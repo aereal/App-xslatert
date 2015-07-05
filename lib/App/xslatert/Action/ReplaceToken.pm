@@ -6,7 +6,6 @@ use warnings;
 use Carp qw/ croak /;
 use Clone qw/ clone /;
 use IO::File;
-use Text::Xslate::Parser;
 use Text::Xslate::AST::Walker;
 
 sub new {

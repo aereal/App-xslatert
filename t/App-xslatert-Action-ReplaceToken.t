@@ -8,6 +8,7 @@ use Test::App::xslatert::Utils;
 use Test::Differences qw( eq_or_diff );
 use Test::Fatal qw/ exception /;
 use Test::More;
+use Text::Xslate::Parser;
 
 sub _require : Test(startup => 2) {
   my $pkg = __PACKAGE__;
