@@ -10,7 +10,8 @@ use Test::Fatal qw/ exception /;
 use Test::More;
 
 sub _require : Test(startup => 2) {
-  my $pkg = __PACKAGE__ =~ s/^t:://r;
+  my $pkg = __PACKAGE__;
+  $pkg =~ s/^t:://;
   require_ok $pkg;
   new_ok $pkg, [ tx_parser => Text::Xslate::Parser->new ];
 }
